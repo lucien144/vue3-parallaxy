@@ -5,7 +5,7 @@ Lightweight parallax component for Vue3.
 ## Installation
 
 ```shell
-npm i vue3-parallaxy
+npm i @lucien144/vue3-parallaxy
 ```
 
 ## Usage

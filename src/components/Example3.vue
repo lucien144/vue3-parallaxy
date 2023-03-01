@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import code from '@/assets/example-3.html';
+import code from '@/assets/example-3.htm';
 import Parallaxy from '@/components/Parallaxy.vue';
 import LayoutRight from '@/components/LayoutRight.vue';
 import SyntaxCode from '@/components/SyntaxCode.vue';

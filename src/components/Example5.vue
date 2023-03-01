@@ -1,3 +1,10 @@
+<script setup lang="ts">
+import Parallaxy from '@/components/Parallaxy.vue';
+import SyntaxCode from '@/components/SyntaxCode.vue';
+import code from '@/assets/example-5.htm';
+import LayoutRight from '@/components/LayoutRight.vue';
+</script>
+
 <template>
 	<LayoutRight>
 		<template #left>
@@ -17,10 +24,3 @@
 		</template>
 	</LayoutRight>
 </template>
-
-<script setup lang="ts">
-import Parallaxy from '@/components/Parallaxy.vue';
-import SyntaxCode from '@/components/SyntaxCode.vue';
-import code from '@/assets/example-4.html';
-import LayoutRight from "@/components/LayoutRight.vue";
-</script>

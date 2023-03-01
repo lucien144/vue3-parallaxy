@@ -1,3 +1,20 @@
+<script setup lang="ts">
+import LayoutLeft from '@/components/LayoutLeft.vue';
+import Parallaxy from '@/components/Parallaxy.vue';
+import SyntaxCode from '@/components/SyntaxCode.vue';
+import code from '@/assets/example-4.htm';
+
+const animate = (delta: number) => {
+	if (delta > -2) {
+		return 'transform: translate3d(0, 120px, 0)';
+	} else if (120 + (delta * 2) > 0) {
+		return `transform: translate3d(0, ${120 + (delta * 2)}px, 0)`;
+	} else {
+		return `transform: translate3d(0, 0, 0) rotateY(${delta * 2}deg)`;
+	}
+};
+</script>
+
 <template>
 	<LayoutLeft>
 		<template #left>
@@ -27,20 +44,3 @@
 		</template>
 	</LayoutLeft>
 </template>
-
-<script setup lang="ts">
-import LayoutLeft from '@/components/LayoutLeft.vue';
-import Parallaxy from '@/components/Parallaxy.vue';
-import SyntaxCode from '@/components/SyntaxCode.vue';
-import code from '@/assets/example-4.html';
-
-const animate = (delta: number) => {
-	if (delta > -2) {
-		return 'transform: translate3d(0, 120px, 0)';
-	} else if (120 + (delta * 2) > 0) {
-		return `transform: translate3d(0, ${120 + (delta * 2)}px, 0)`;
-	} else {
-		return `transform: translate3d(0, 0, 0) rotateY(${delta * 2}deg)`;
-	}
-};
-</script>

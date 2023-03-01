@@ -2,7 +2,7 @@
 import Parallaxy from '@/components/Parallaxy.vue';
 import LayoutRight from '@/components/LayoutRight.vue';
 import SyntaxCode from '@/components/SyntaxCode.vue';
-import code from '@/assets/example-1.html';
+import code from '@/assets/example-1.htm';
 </script>
 
 <template>
