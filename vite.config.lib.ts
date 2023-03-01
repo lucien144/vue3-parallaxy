@@ -6,8 +6,8 @@ const libConfig = defineConfig({
 	build: {
 		lib: {
 			entry: resolve(__dirname, 'src/components/Parallaxy.vue'),
-			name: 'VueParallaxy',
-			fileName: 'vue-parallaxy',
+			name: 'Vue3Parallaxy',
+			fileName: 'vue3-parallaxy',
 		},
 		rollupOptions: {
 			external: ['vue'],

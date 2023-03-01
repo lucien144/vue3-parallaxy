@@ -1,7 +1,14 @@
 {
-  "name": "vue-parallaxy",
-  "version": "0.0.0",
-  "private": true,
+  "name": "vue3-parallaxy",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": false,
+  "main": "dist/vue3-parallaxy.umd.js",
+  "module": "dist/vue3-parallaxy.mjs",
+  "repository": {
+	"type": "git",
+	"url": "https://github.com/lucien144/vue3-parallaxy"
+  },
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
