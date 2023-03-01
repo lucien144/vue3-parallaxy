@@ -9,6 +9,9 @@
 	"type": "git",
 	"url": "https://github.com/lucien144/vue3-parallaxy"
   },
+  "publishConfig": {
+	"registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
