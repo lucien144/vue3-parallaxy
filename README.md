@@ -1,6 +1,6 @@
 # Parallaxy
 
-Lightweight parallax component for Vue3.
+Lightweight parallax component for Vue3. [Demo.](https://vue3-parallaxy.onrender.com/)
 
 ## Installation
 
