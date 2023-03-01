@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { getHighlighter, setCDN } from 'shiki';
 import { ref } from 'vue';
-setCDN('/node_modules/shiki/');
+
+setCDN('/shiki/');
 
 const props = defineProps({
 	code: {
