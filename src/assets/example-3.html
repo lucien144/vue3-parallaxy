@@ -1,0 +1,38 @@
+<Parallaxy class="space-y-16">
+	<div class="clip aspect-square overflow-hidden flex flex-col justify-center rounded-tl-full transform translate-x-3">
+		<Parallaxy
+			:speed="70"
+		>
+			<video autoplay muted loop playsinline>
+				<source src="@/assets/video.mp4">
+			</video>
+		</Parallaxy>
+	</div>
+	<div class="clip aspect-square overflow-hidden flex flex-col justify-center">
+		<Parallaxy
+			:speed="60"
+			direction="opposite"
+		>
+			<img src="https://picsum.photos/1024/2048?2" class="w-full">
+		</Parallaxy>
+	</div>
+</Parallaxy>
+<Parallaxy
+	:speed="55"
+	direction="opposite"
+	class="space-y-16"
+>
+	<div class="clip aspect-square overflow-hidden flex flex-col justify-center">
+		<Parallaxy
+			:speed="60"
+			direction="opposite"
+		>
+			<img src="https://picsum.photos/1024/2048?3" class="w-full">
+		</Parallaxy>
+	</div>
+	<div class="clip aspect-square overflow-hidden flex flex-col justify-center rounded-br-full transform -translate-x-3">
+		<Parallaxy>
+			<img src="https://picsum.photos/1024/2048?4" class="w-full">
+		</Parallaxy>
+	</div>
+</Parallaxy>
