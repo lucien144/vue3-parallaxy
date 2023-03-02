@@ -5,6 +5,7 @@
   "private": false,
   "main": "dist/vue3-parallaxy.umd.js",
   "module": "dist/vue3-parallaxy.mjs",
+  "homepage": "https://parallaxy.144.wtf/",
   "repository": {
     "type": "git",
     "url": "https://github.com/lucien144/vue3-parallaxy"

@@ -4,7 +4,7 @@
 
 ---
 <p align="center">
-👉 <a href="https://vue3-parallaxy.onrender.com/#example-1">Examples and usage here.</a> 👈
+👉 <a href="https://parallaxy.144.wtf/#example-1">Examples and usage here.</a> 👈
 </p>
 
 ---

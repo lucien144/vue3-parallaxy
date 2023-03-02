@@ -51,7 +51,8 @@ import Example5 from '@/components/Example5.vue';
 		<p>
 			Author: <a href="https://144.wtf" target="_blank" class="underline hover:no-underline">Jan Blasko</a><br>
 			Video source: <a href="https://www.pexels.com/video/person-holding-sparklers-2301284/" target="_blank" class="underline hover:no-underline">Mudassir Ali</a><br>
-			Images source: <a href="https://Unsplash.it" target="_blank" class="underline hover:no-underline">Unsplash.it</a><br><br>
+			Images source: <a href="https://Unsplash.it" target="_blank" class="underline hover:no-underline">Unsplash.it</a><br>
+			GitHub: <a href="https://github.com/lucien144/vue3-parallaxy/" target="_blank" class="underline hover:no-underline">lucien144/vue3-parallaxy</a><br><br>
 			Released under the <a href="https://choosealicense.com/licenses/mit/" target="_blank" class="underline hover:no-underline">MIT license</a>.
 		</p>
 	</footer>
