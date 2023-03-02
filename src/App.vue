@@ -11,8 +11,11 @@ import Example5 from '@/components/Example5.vue';
 	<div class="container mx-auto">
 			<div class="grid grid-cols-12 gap-2">
 				<div class="col-span-10 col-start-2">
-					<div class="prose prose-lg max-w-none py-32">
+					<div class="relative prose prose-lg max-w-none py-32">
 						<Readme/>
+						<div class="absolute top-5 right-0">
+							<a class="github-button" href="https://github.com/lucien144/vue3-parallaxy" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" data-show-count="true" aria-label="Star lucien144/vue3-parallaxy on GitHub">Star</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -60,5 +63,12 @@ import Example5 from '@/components/Example5.vue';
 
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
+table,
+li,
+p {
+	code {
+		@apply text-pink-500 bg-red-50 font-normal p-1 rounded #{!important};
+	}
+}
 </style>

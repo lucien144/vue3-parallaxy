@@ -9,7 +9,7 @@ import code from '@/assets/example-1.htm';
 	<LayoutRight>
 		<template #left>
 			<div class="prose pb-16">
-				<h3>Example 1 - simple use</h3>
+				<h3 id="example-1">Example 1 - simple use</h3>
 			</div>
 			<div class="text-sm bg-[#282A36] rounded-lg w-fit">
 				<SyntaxCode :code="code"/>

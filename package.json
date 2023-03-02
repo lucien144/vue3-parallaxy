@@ -10,20 +10,16 @@
     "url": "https://github.com/lucien144/vue3-parallaxy"
   },
   "scripts": {
-	"predev": "npm run copy",
-	"dev": "vite",
-	"prebuild": "npm run copy",
-	"build": "run-p type-check build-only",
-	"preview": "vite preview",
+    "dev": "vite",
+    "build": "run-p type-check build-only",
+    "preview": "vite preview",
     "build-only": "vite build",
     "build-only:lib": "vite --config vite.config.lib.ts build",
     "type-check": "vue-tsc --noEmit",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --ignore-path .gitignore",
-    "lint:fix": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
-    "copy": "shx mkdir -p public/shiki && shx cp -r node_modules/shiki/{dist,languages,samples,themes} public/shiki/"
+    "lint:fix": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
-    "shiki": "^0.14.1",
     "vue": "^3.2.45"
   },
   "devDependencies": {
