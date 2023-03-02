@@ -25,7 +25,7 @@ npm i @lucien144/vue3-parallaxy
 </template>
 
 <script setup lang="ts">
-import Parallaxy from 'vue3-parallaxy';
+import Parallaxy from '@lucien144/vue3-parallaxy';
 </script>
 ```
 
