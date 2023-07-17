@@ -1,7 +1,7 @@
 {
   "name": "@lucien144/vue3-parallaxy",
   "description": "Lightweight yet powerful parallax component for Vue3.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "private": false,
   "main": "dist/vue3-parallaxy.umd.js",
@@ -11,6 +11,7 @@
     "type": "git",
     "url": "https://github.com/lucien144/vue3-parallaxy"
   },
+  "files": ["dist/**/*"],
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
