@@ -1,6 +1,6 @@
 # Parallaxy
 
-💥 Lightweight yet powerful parallax component for Vue3. 
+💥 Lightweight yet powerful parallax component for Vue3 with breakpoints option and animation callback. 
 
 ---
 <p align="center">
