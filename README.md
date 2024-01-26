@@ -1,6 +1,6 @@
 # Parallaxy
 
-💥 Lightweight yet powerful parallax component for Vue3 with breakpoints option and animation callback. 
+💥 Lightweight yet powerful parallax component for Vue3 with breakpoints option and animation callback. Nuxt3 ready.
 
 ---
 <p align="center">
@@ -13,6 +13,7 @@
 
 ```shell
 npm i @lucien144/vue3-parallaxy
+# yarn add @lucien144/vue3-parallaxy
 ```
 
 ## Usage
