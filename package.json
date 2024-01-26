@@ -1,7 +1,7 @@
 {
   "name": "@lucien144/vue3-parallaxy",
   "description": "Lightweight yet powerful parallax component for Vue3.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "private": false,
   "main": "dist/vue3-parallaxy.umd.js",
@@ -21,9 +21,6 @@
     "type-check": "vue-tsc --noEmit",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --ignore-path .gitignore",
     "lint:fix": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
-  },
-  "dependencies": {
-    "vue": "^3.2.45"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.4",
@@ -45,6 +42,7 @@
     "vite": "^4.0.0",
     "vite-plugin-plain-text": "^1.4.2",
     "vite-plugin-vue-markdown": "^0.22.4",
+    "vue": "^3.2.45",
     "vue-tsc": "^1.0.12"
   },
   "keywords": [
